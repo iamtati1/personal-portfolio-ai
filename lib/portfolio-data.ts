@@ -1,5 +1,12 @@
 export const projects = [
   {
+    title: "TaskFlow",
+    description: "Full-stack productivity app for securely managing tasks with user authentication, a React frontend, and a PostgreSQL-backed REST API.",
+    tags: ["React", "Vite", "Node.js", "Express.js", "PostgreSQL", "Tailwind CSS"],
+    liveUrl: "https://taskflow-onrender-com.onrender.com",
+    githubUrl: "https://github.com/The-Marcy-Lab-School-Assignments/full-stack-project-remix-iamtati1",
+  },
+  {
     title: "Portfolio Website",
     description: "Clean, responsive personal portfolio built with HTML, CSS, and JavaScript.",
     tags: ["HTML", "CSS", "JavaScript"],
@@ -56,18 +63,23 @@ Tatiana Barmer is a software engineer and web developer based in the United Stat
 - Applied AI, Prompt Engineering
 
 ## Projects
-1. **Portfolio Website** — Clean, responsive personal portfolio (HTML/CSS/JS)
+1. **TaskFlow** — Full-stack productivity app for securely managing tasks
+   - Live: https://taskflow-onrender-com.onrender.com
+   - GitHub: https://github.com/The-Marcy-Lab-School-Assignments/full-stack-project-remix-iamtati1
+   - Stack: React, Vite, Node.js, Express.js, PostgreSQL, Tailwind CSS
+
+2. **Portfolio Website** — Clean, responsive personal portfolio (HTML/CSS/JS)
    - Live: https://iamtati1.github.io/iamtati.github.io/
    - GitHub: https://github.com/iamtati1/iamtati.github.io
 
-2. **Pokédex Explorer** — API-driven app with search and filter functionality
+3. **Pokédex Explorer** — API-driven app with search and filter functionality
    - Live: https://tati-uremu-mls.github.io/mod-4-project/
    - GitHub: https://github.com/tati-uremu-mls/mod-4-project
 
-3. **CLI Quiz Game** — Interactive quiz app using core JavaScript principles
+4. **CLI Quiz Game** — Interactive quiz app using core JavaScript principles
    - GitHub: https://github.com/iamtati1/swe-project-1-cli-app-v2
 
-4. **Recipe Card App** — Responsive layout using Flexbox and CSS Grid
+5. **Recipe Card App** — Responsive layout using Flexbox and CSS Grid
    - Live: https://iamtati1.github.io/swe-3-1-two-recipe-card-iamtati1/
 
 ## Background & Interests
