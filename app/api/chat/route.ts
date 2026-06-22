@@ -13,7 +13,7 @@ export async function POST(request: Request) {
       try {
         const anthropicStream = client.messages.stream({
           model: "claude-opus-4-8",
-          max_tokens: 1024,
+          max_tokens: 4096,
           thinking: { type: "adaptive" },
           system: PORTFOLIO_SYSTEM_PROMPT,
           messages,
@@ -28,7 +28,8 @@ export async function POST(request: Request) {
           }
         }
         controller.close();
-      } catch {
+      } catch (err) {
+        console.error("[chat/route] Anthropic API error:", err);
         controller.enqueue(
           encoder.encode("Sorry, I couldn't process that request. Please try again.")
         );
